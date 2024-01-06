@@ -1,0 +1,126 @@
+MODEL: ARGUMENT IDENTIFICATION + ARGUMENT CLASSIFICATION
+ARGUMENT IDENTIFICATION
+
+                    |   Gold Positive    |   Gold Negative    
+==============================================================
+   Pred Positive    |        4538        |        519         
+   Pred Negative    |        475         |                    
+
+
+Precision = 0.8974
+Recall    = 0.9052
+F1 score  = 0.9013
+
+
+
+ARGUMENT CLASSIFICATION
+
+                    |   Gold Positive    |   Gold Negative    
+==============================================================
+   Pred Positive    |        4236        |        821         
+   Pred Negative    |        777         |                    
+
+
+Precision = 0.8377
+Recall    = 0.8450
+F1 score  = 0.8413
+
+
+
+MODEL: PREDICATE DISAMBIGUATION + ARGUMENT IDENTIFICATION + ARGUMENT CLASSIFICATION
+PREDICATE DISAMBIGUATION
+
+                    |   Gold Positive    |   Gold Negative    
+==============================================================
+   Pred Positive    |        2285        |        268         
+   Pred Negative    |        268         |                    
+
+
+Precision = 0.8950
+Recall    = 0.8950
+F1 score  = 0.8950
+
+
+
+ARGUMENT IDENTIFICATION
+
+                    |   Gold Positive    |   Gold Negative    
+==============================================================
+   Pred Positive    |        4538        |        519         
+   Pred Negative    |        475         |                    
+
+
+Precision = 0.8974
+Recall    = 0.9052
+F1 score  = 0.9013
+
+
+
+ARGUMENT CLASSIFICATION
+
+                    |   Gold Positive    |   Gold Negative    
+==============================================================
+   Pred Positive    |        4236        |        821         
+   Pred Negative    |        777         |                    
+
+
+Precision = 0.8377
+Recall    = 0.8450
+F1 score  = 0.8413
+
+
+
+MODEL: PREDICATE IDENTIFICATION + PREDICATE DISAMBIGUATION + ARGUMENT IDENTIFICATION + ARGUMENT CLASSIFICATION
+PREDICATE IDENTIFICATION
+
+                    |   Gold Positive    |   Gold Negative    
+==============================================================
+   Pred Positive    |        2460        |        209         
+   Pred Negative    |         93         |                    
+
+
+Precision = 0.9217
+Recall    = 0.9636
+F1 score  = 0.9422
+
+
+
+PREDICATE DISAMBIGUATION
+
+                    |   Gold Positive    |   Gold Negative    
+==============================================================
+   Pred Positive    |        2196        |        473         
+   Pred Negative    |        357         |                    
+
+
+Precision = 0.8228
+Recall    = 0.8602
+F1 score  = 0.8411
+
+
+
+ARGUMENT IDENTIFICATION
+
+                    |   Gold Positive    |   Gold Negative    
+==============================================================
+   Pred Positive    |        4416        |        849         
+   Pred Negative    |        597         |                    
+
+
+Precision = 0.8387
+Recall    = 0.8809
+F1 score  = 0.8593
+
+
+
+ARGUMENT CLASSIFICATION
+
+                    |   Gold Positive    |   Gold Negative    
+==============================================================
+   Pred Positive    |        4143        |        1122        
+   Pred Negative    |        870         |                    
+
+
+Precision = 0.7869
+Recall    = 0.8265
+F1 score  = 0.8062
